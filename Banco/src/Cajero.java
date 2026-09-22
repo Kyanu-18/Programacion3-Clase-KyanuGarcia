@@ -1,7 +1,7 @@
 public class Cajero extends Thread {
     CuentaBancaria cuenta;
 
-    String[] nombres = {"Ana", "Luis", "Carlos", "", "Maria"};
+    String[] nombres = {"Ana", "Luis", "Carlos", "Kyanu", "Maria"};
     double[] montos = {1500.00, -200.00, 800.00, 500.00, 3000.00};
 
     public Cajero(CuentaBancaria cuenta) {
