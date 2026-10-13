@@ -39,13 +39,13 @@ public class JavaFX extends Application {
                     resultado.setStyle("-fx-font-size: 16px; -fx-padding: 10; -fx-background-color: gray;");
                 } else if (nota >= 70) {
                     resultado.setText(nombre + ": Aprobado");
-                    resultado.setStyle("-fx-font-size: 16px; -fx-padding: 10; -fx-background-color: green;");
+                    resultado.setStyle("-fx-font-size: 16px; -fx-padding: 10; -fx-background-color: #14fa46;");
                 } else if (nota >= 60) {
                     resultado.setText(nombre + ": Completivo");
-                    resultado.setStyle("-fx-font-size: 16px; -fx-padding: 10; -fx-background-color: yellow;");
+                    resultado.setStyle("-fx-font-size: 16px; -fx-padding: 10; -fx-background-color: #fbff19;");
                 } else {
                     resultado.setText(nombre + ": Reprobado");
-                    resultado.setStyle("-fx-font-size: 16px; -fx-padding: 10; -fx-background-color: red;");
+                    resultado.setStyle("-fx-font-size: 16px; -fx-padding: 10; -fx-background-color: #f53b3b;");
                 }
             } catch (NumberFormatException ex) {
                 resultado.setText("Nota inválida");
